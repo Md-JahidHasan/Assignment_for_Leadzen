@@ -8,7 +8,7 @@ const Persons = () => {
     console.log(data);
     return (
         <div>
-            <h1>Persons</h1>
+            <h1 className='text-2xl mt-2'>All Info</h1>
             {
                 data?.map(person => <Person
                 key={person.id}
