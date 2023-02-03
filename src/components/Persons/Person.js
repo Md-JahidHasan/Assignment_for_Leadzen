@@ -11,7 +11,7 @@ const Person = ({person}) => {
 
     const {company, name, address, username, email, phone} = person;
     return (
-        <div className='my-3 mx-2 py-8  bg-slate-100 rounded-[20px] '>
+        <div className='my-3 mx-6 sm:mx-2 py-8  bg-slate-100 rounded-[20px] '>
             <div className='grid sm:grid-cols-5 gap-2 items-center '>
                 <div className='sm:text-start sm:pl-6'>{company.name}</div>
                 <div className='sm:text-start sm:pl-6'>
